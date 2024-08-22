@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <h1>Naoki Formulário</h1>
+    <p>Preencha as opções abaixo e envie o formulário.</p>
+    <form>
+            <legend>Informações Pessoais</legend>
+            <br/>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br/>
+            <br/>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br/>
+            <br/>
+
+            <label for="idade">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+            <br/>
+            <br/>
+
+            <label for="genero">Sexo:</label>
+                <input type="checkbox" id="masculino" name="genero" value="masculino">
+                <label for="masculino">Masculino</label>
+                <input type="checkbox" id="feminino" name="genero" value="feminino">
+                <label for="esportes">Feminino</label>
+            <br/>
+            <br/>
+            <label for="uf">UF:</label>
+            <select id="uf" name="uf" required>
+                <option value="df">DF</option>
+                <option value="go">GO</option>
+                <option value="outro">Outro</option>
+            </select>
+            <br/>
+            <br/>
+            <legend>Hobbies</legend>
+        
+        <fieldset>
+            <input type="checkbox" id="leitura" value="leitura">
+            <label for="leitura">Leitura</label>
+            <input type="checkbox" id="esportes" value="esportes">
+            <label for="esportes">Esportes</label>
+            <input type="checkbox" id="musica" value="musica">
+            <label for="musica">Música</label>
+            <input type="checkbox" id="futebol" value="futebol">
+            <label for="futebol">futebol</label>
+            <input type="checkbox" id="xadrez" value="xadrez">
+            <label for="xadrez">Xadrez</label>
+            <input type="checkbox" id="cinema" value="cinema">
+            <label for="cinema">Cinema</label>
+        </fieldset>
+        
+        <label for="observacoes">Observações:</label>
+        <input type="observacoes" id="observacoes" name="observacoes" style="width: 300px ; height: 100px;">
+
+        <br/>
+        <br/>
+        <!-- Botões de reset e submit -->
+        <button type="reset">voltar</button>
+        <button type="reset">Limpar</button>
+        <button type="submit">Salvar</button>
+    </form>
+    <br/>
+    <a href="./tabela.html">acesse a tabela</a>
+</body>
+
+</html>
